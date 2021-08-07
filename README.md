@@ -15,6 +15,9 @@ Generate a cannonjs heightfield from glb/gltf terrain created in Blender
 
 - Copy the matrix output from the textbox, or from the console:
 ![obj](https://user-images.githubusercontent.com/29487929/128610013-2f3f8f7d-ee7a-4822-8a2b-1c037c994bef.png)
+
+
+
 - Plug it into your CANNON.Heightfield body as the matrix, use the same point distance as specified on Mesh2Heightfield
 - ....
 - Done, though you still might have to adjust the height of the CANNON.Heightfield and the imported THREE.Mesh
