@@ -11,7 +11,14 @@ Generate a cannonjs heightfield from glb/gltf terrain created in Blender
 - Export as glb/gltf and upload to Mesh2Heightfield
 - Select the correct point distance, best if under 10.
 
-![landscape](https://user-images.githubusercontent.com/29487929/128609620-27c0d49e-e1b5-4927-9073-005a183cbd5d.png)
+## But how to actually use?
+
+- Copy the matrix output from the textbox, or from the console:
+![obj](https://user-images.githubusercontent.com/29487929/128610013-2f3f8f7d-ee7a-4822-8a2b-1c037c994bef.png)
+- Plug it into your CANNON.Heightfield body as the matrix, use the same point distance as specified on Mesh2Heightfield
+- ....
+- Done, though you still might have to adjust the height of the CANNON.Heightfield and the imported THREE.Mesh
+
 
 ## Quickstart
 
@@ -32,5 +39,7 @@ npm run dev
 
 - [OffroadJS](https://github.com/tomo0613/offroadJS)
 - [GLTF-Viewer](https://github.com/donmccurdy/three-gltf-viewer)
+
+![landscape](https://user-images.githubusercontent.com/29487929/128609620-27c0d49e-e1b5-4927-9073-005a183cbd5d.png)
 
 
