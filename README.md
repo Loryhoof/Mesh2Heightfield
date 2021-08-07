@@ -11,6 +11,7 @@ Generate a cannonjs heightfield from glb/gltf terrain created in Blender
 - Export as glb/gltf and upload to Mesh2Heightfield
 - Select the correct point distance, best if under 10.
 
+![landscape](https://user-images.githubusercontent.com/29487929/128609620-27c0d49e-e1b5-4927-9073-005a183cbd5d.png)
 
 ## Quickstart
 
@@ -18,7 +19,6 @@ Generate a cannonjs heightfield from glb/gltf terrain created in Blender
 npm install
 npm run dev
 
-![Terrain](https://i.ibb.co/RYG7y17/landscape.png)
 ```
 
 ## Credit
