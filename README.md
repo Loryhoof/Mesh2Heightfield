@@ -25,6 +25,7 @@ npm run dev
 
 - If the terrain is very big (e.g 1000x1000) it will take some time to generate the heightfield matrix,
   You can experiment with the point distance input to make it faster.
+- The window must be open for the entire duration, otherwise it won't generate.
   
 
 ## Credit
