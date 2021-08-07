@@ -21,6 +21,12 @@ npm run dev
 
 ```
 
+## Warning
+
+- If the terrain is very big (e.g 1000x1000) it will take some time to generate the heightfield matrix,
+  You can experiment with the point distance input to make it faster.
+  
+
 ## Credit
 
 - [OffroadJS](https://github.com/tomo0613/offroadJS)
