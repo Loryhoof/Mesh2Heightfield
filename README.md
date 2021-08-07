@@ -17,6 +17,8 @@ Generate a cannonjs heightfield from glb/gltf terrain created in Blender
 ```
 npm install
 npm run dev
+
+![Terrain](https://i.ibb.co/RYG7y17/landscape.png)
 ```
 
 ## Credit
